@@ -1,6 +1,6 @@
 # human-pose-estimation-3d-python-cpp
 
-- RealSenseD435 (RGB) + CPU Corei9 45 FPS
+- RealSenseD435 (RGB) 480x640 + CPU Corei9 45 FPS
 
 https://user-images.githubusercontent.com/33194443/139843463-39682559-7472-4904-9910-8a25512dd4b1.mp4
 

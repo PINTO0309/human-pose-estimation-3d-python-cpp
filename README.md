@@ -54,6 +54,26 @@ $ python3 human_pose_estimation_3d_demo.py \
 --device GPU \
 --input 4
 ```
+### 1-3. General USB Camera 480x640 + CPU
+```bash
+$ xhost +local: && \
+docker run -it --rm \
+-v `pwd`:/home/user/workdir \
+-v /tmp/.X11-unix/:/tmp/.X11-unix:rw \
+--device /dev/video0:/dev/video0:mwr \
+--net=host \
+-e LIBVA_DRIVER_NAME=iHD \
+-e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR \
+-e DISPLAY=$DISPLAY \
+--privileged \
+ghcr.io/pinto0309/openvino2tensorflow:latest
+```
+```bash
+$ python3 human_pose_estimation_3d_demo.py \
+--model models/openvino/FP16/human-pose-estimation-3d-0001_bgr_480x640.xml \
+--device GPU \
+--input 0
+```
 ## 2. Build
 ```bash
 $ PYTHON_PREFIX=$(python3 -c "import sys; print(sys.prefix)") \

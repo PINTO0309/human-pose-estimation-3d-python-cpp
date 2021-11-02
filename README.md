@@ -70,3 +70,6 @@ $ python3 human_pose_estimation_3d_demo.py \
 --device GPU \
 --input 4
 ```
+## 3. Reference
+1. https://github.com/openvinotoolkit/open_model_zoo/tree/2021.4.1/demos/human_pose_estimation_3d_demo/python
+2. https://docs.openvino.ai/2021.4/omz_models_model_human_pose_estimation_3d_0001.html

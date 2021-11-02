@@ -70,7 +70,7 @@ ghcr.io/pinto0309/openvino2tensorflow:latest
 ```bash
 $ python3 human_pose_estimation_3d_demo.py \
 --model models/openvino/FP16/human-pose-estimation-3d-0001_bgr_480x640.xml \
---device GPU \
+--device CPU \
 --input 0
 ```
 ## 2. Build

@@ -22,7 +22,7 @@ $ make && cp pose_extractor.so ../.. && cd ../..
 ```
 
 ## 2. Run
-### 2-1. RealSenseD435 (RGB) + CPU Corei9 45 FPS
+### 2-1. RealSenseD435 (RGB) 480x640 + CPU Corei9 45 FPS
 ```bash
 $ xhost +local: && \
 docker run -it --rm \
@@ -46,7 +46,7 @@ $ python3 human_pose_estimation_3d_demo.py \
 --device CPU \
 --input 4
 ```
-### 2-2. RealSenseD435 (RGB) + iGPU
+### 2-2. RealSenseD435 (RGB) 480x640 + iGPU
 ```bash
 $ xhost +local: && \
 docker run -it --rm \

@@ -29,7 +29,7 @@ $ python3 human_pose_estimation_3d_demo.py \
 --device CPU \
 --input 4
 ```
-### 1-2. RealSenseD435 (RGB) 480x640 + iGPU
+### 1-2. RealSenseD435 (RGB) 480x640 + iGPU (OpenCL)
 ```bash
 $ xhost +local: && \
 docker run -it --rm \

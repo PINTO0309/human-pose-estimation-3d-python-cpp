@@ -2,7 +2,7 @@
 
 - RealSenseD435 (RGB) 480x640 + CPU Corei9 45 FPS (Depth is not used)
 
-https://user-images.githubusercontent.com/33194443/139843463-39682559-7472-4904-9910-8a25512dd4b1.mp4
+![ezgif com-gif-maker (16)](https://user-images.githubusercontent.com/33194443/139964887-97c322ed-acfd-436d-b2a6-f9ae1364704a.gif)
 
 ## 1. Run
 ### 1-1. RealSenseD435 (RGB) 480x640 + CPU Corei9 45 FPS (Depth is not used)

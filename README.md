@@ -93,3 +93,4 @@ $ make && cp pose_extractor.so ../.. && cd ../..
 ## 3. Reference
 1. https://github.com/openvinotoolkit/open_model_zoo/tree/2021.4.1/demos/human_pose_estimation_3d_demo/python
 2. https://docs.openvino.ai/2021.4/omz_models_model_human_pose_estimation_3d_0001.html
+3. https://github.com/PINTO0309/PINTO_model_zoo/tree/main/029_human-pose-estimation-3d-0001

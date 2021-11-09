@@ -5,6 +5,10 @@
 ![ezgif com-gif-maker (16)](https://user-images.githubusercontent.com/33194443/139964887-97c322ed-acfd-436d-b2a6-f9ae1364704a.gif)
 
 ## 1. Run
+```bash
+$ git clone https://github.com/PINTO0309/human-pose-estimation-3d-python-cpp
+$ cd human-pose-estimation-3d-python-cpp
+```
 ### 1-1. RealSenseD435 (RGB) 480x640 + CPU Corei9 45 FPS (Depth is not used)
 ```bash
 $ xhost +local: && \
@@ -24,8 +28,6 @@ docker run -it --rm \
 ghcr.io/pinto0309/openvino2tensorflow:latest
 ```
 ```bash
-$ git clone https://github.com/PINTO0309/human-pose-estimation-3d-python-cpp
-$ cd human-pose-estimation-3d-python-cpp
 $ python3 human_pose_estimation_3d_demo.py \
 --model models/openvino/FP16/human-pose-estimation-3d-0001_bgr_480x640.xml \
 --device CPU \
@@ -51,8 +53,6 @@ docker run -it --rm \
 ghcr.io/pinto0309/openvino2tensorflow:latest
 ```
 ```bash
-$ git clone https://github.com/PINTO0309/human-pose-estimation-3d-python-cpp
-$ cd human-pose-estimation-3d-python-cpp
 $ python3 human_pose_estimation_3d_demo.py \
 --model models/openvino/FP16/human-pose-estimation-3d-0001_bgr_480x640.xml \
 --device GPU \
@@ -72,8 +72,6 @@ docker run -it --rm \
 ghcr.io/pinto0309/openvino2tensorflow:latest
 ```
 ```bash
-$ git clone https://github.com/PINTO0309/human-pose-estimation-3d-python-cpp
-$ cd human-pose-estimation-3d-python-cpp
 $ python3 human_pose_estimation_3d_demo.py \
 --model models/openvino/FP16/human-pose-estimation-3d-0001_bgr_480x640.xml \
 --device CPU \

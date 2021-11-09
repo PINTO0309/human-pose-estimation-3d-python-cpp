@@ -24,6 +24,8 @@ docker run -it --rm \
 ghcr.io/pinto0309/openvino2tensorflow:latest
 ```
 ```bash
+$ git clone https://github.com/PINTO0309/human-pose-estimation-3d-python-cpp
+$ cd human-pose-estimation-3d-python-cpp
 $ python3 human_pose_estimation_3d_demo.py \
 --model models/openvino/FP16/human-pose-estimation-3d-0001_bgr_480x640.xml \
 --device CPU \
@@ -49,6 +51,8 @@ docker run -it --rm \
 ghcr.io/pinto0309/openvino2tensorflow:latest
 ```
 ```bash
+$ git clone https://github.com/PINTO0309/human-pose-estimation-3d-python-cpp
+$ cd human-pose-estimation-3d-python-cpp
 $ python3 human_pose_estimation_3d_demo.py \
 --model models/openvino/FP16/human-pose-estimation-3d-0001_bgr_480x640.xml \
 --device GPU \
@@ -68,6 +72,8 @@ docker run -it --rm \
 ghcr.io/pinto0309/openvino2tensorflow:latest
 ```
 ```bash
+$ git clone https://github.com/PINTO0309/human-pose-estimation-3d-python-cpp
+$ cd human-pose-estimation-3d-python-cpp
 $ python3 human_pose_estimation_3d_demo.py \
 --model models/openvino/FP16/human-pose-estimation-3d-0001_bgr_480x640.xml \
 --device CPU \
